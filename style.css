@@ -13,16 +13,23 @@ body {
   no-repeat top center/cover;
 }
 
+body * {
+  font-family: 'Mulish', sans-serif;
+  font-family: 'MuseoModerno', sans-serif;
+  color: white;
+}
+
 /* Configuração da caixa 1*/
 #container {
   width: 360px;
   border: 1px solid coral;
-  margin: auto;
+  margin: 56px auto 0px;
 }
 
 /* Configuração do alinhamento do conteúdo*/
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 /* Configuração do avatar*/
@@ -30,11 +37,10 @@ body {
   width: 112px;
 }
 
-body * {
-  font-family: 'Mulish', sans-serif;
-  font-family: 'MuseoModerno', sans-serif;
-  color: white;
-}
- p {
+/*  Configuração do @perdiao.techjourney */
+ #profile p {
   font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: 8px;
  }
