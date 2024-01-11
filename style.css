@@ -48,9 +48,22 @@ body * {
  /* Configuração dos link-buttons */
  ul {
    list-style: none;
- }
 
- ul li a {
-  border: 1px solid salmon;
    display: flex;
- }
+   flex-direction: column;
+   gap: 16px;
+  }
+  
+  ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px 24px;
+
+    border-radius: 8px;
+    border: 1px solid rgba(11, 214, 218, 0.50);
+    background: rgba(36, 36, 36, 0.50);
+    backdrop-filter: blur(4px);
+
+  }
