@@ -14,5 +14,15 @@ body {
 }
 
 #container {
-  
+  width: 360px;
+  border: 1px solid coral;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
 }
