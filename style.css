@@ -44,3 +44,13 @@ body * {
   font-size: 16px;
   margin-top: 8px;
  }
+
+ /* Configuração dos link-buttons */
+ ul {
+   list-style: none;
+ }
+
+ ul li a {
+  border: 1px solid salmon;
+   display: flex;
+ }
