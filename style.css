@@ -13,16 +13,28 @@ body {
   no-repeat top center/cover;
 }
 
+/* Configuração da caixa 1*/
 #container {
   width: 360px;
   border: 1px solid coral;
   margin: auto;
 }
 
+/* Configuração do alinhamento do conteúdo*/
 #profile {
   text-align: center;
 }
 
+/* Configuração do avatar*/
 #profile img {
   width: 112px;
 }
+
+body * {
+  font-family: 'Mulish', sans-serif;
+  font-family: 'MuseoModerno', sans-serif;
+  color: white;
+}
+ p {
+  font-weight: 400;
+ }
