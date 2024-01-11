@@ -11,5 +11,8 @@ body {
   /* Shorthand */
   background: url(./Mobile/Gradient-Dark-mode.jpg) 
   no-repeat top center/cover;
+}
+
+#container {
   
 }
