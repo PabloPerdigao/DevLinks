@@ -4,3 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Configuração de fundo da página */
+body {
+  background-image: url(./Mobile/Gradient-Dark\ mode.jpg);
+  background-color: no-repeat;
+}
