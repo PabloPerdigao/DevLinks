@@ -6,7 +6,10 @@
 }
 
 /* Configuração de fundo da página */
+
 body {
-  background-image: url(./Mobile/Gradient-Dark\ mode.jpg);
-  background-color: no-repeat;
+  /* Shorthand */
+  background: url(./Mobile/Gradient-Dark-mode.jpg) 
+  no-repeat top center/cover;
+  
 }
