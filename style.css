@@ -5,14 +5,14 @@
   box-sizing: border-box;
 }
 
-/* Configuração de fundo da página */
-
+/* Configuração do background da página */
 body {
   /* Shorthand */
   background: url(./Mobile/Gradient-Dark-mode.jpg) 
   no-repeat top center/cover;
 }
 
+/* Configuração das fontes da página */
 body * {
   font-family: 'Mulish', sans-serif;
   font-family: 'MuseoModerno', sans-serif;
@@ -22,7 +22,6 @@ body * {
 /* Configuração da caixa 1*/
 #container {
   width: 360px;
-  border: 1px solid coral;
   margin: 56px auto 0px;
 }
 
@@ -38,32 +37,41 @@ body * {
 }
 
 /*  Configuração do @perdiao.techjourney */
- #profile p {
+#profile p {
   font-weight: 400;
   line-height: 24px;
-  font-size: 16px;
   margin-top: 8px;
- }
+}
 
- /* Configuração dos link-buttons */
- ul {
-   list-style: none;
 
-   display: flex;
-   flex-direction: column;
-   gap: 16px;
-  }
+/* Configuração dos link-buttons */
+ul {
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+}
+
+ul li { 
+  gap: 16px;
+}
+ 
+/* Configuração do conteúdo dos link-buttons */
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   
-  ul li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 56px;
 
-    padding: 16px 24px;
+  padding: 16px 24px;
+  border-radius: 8px;
 
-    border-radius: 8px;
-    border: 1px solid rgba(11, 214, 218, 0.50);
-    background: rgba(36, 36, 36, 0.50);
-    backdrop-filter: blur(4px);
+  border: 1px solid rgba(11, 214, 218, 0.50);
+  background: rgba(36, 36, 36, 0.50);
+  backdrop-filter: blur(4px);
 
-  }
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
