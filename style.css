@@ -50,9 +50,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-
- /*OBS: O 16px não pode ser aplicado no último button*/
-  padding: 0 0 16px  0;
 }
 
 ul li { 
