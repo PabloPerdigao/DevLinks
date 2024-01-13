@@ -8,7 +8,7 @@
 /* Configuração do background da página */
 body {
   /* Shorthand */
-  background: url(./Mobile/Gradient-Dark-mode.jpg) 
+  background: url(./mobile/Gradient-Dark-mode.jpg) 
   no-repeat top center/cover;
 }
 
@@ -86,4 +86,12 @@ ul li a {
 ul li a:hover {
   border: 2px solid rgba(31, 202, 195, 0.50);
   background: rgba(36, 36, 36, 0.25);
+}
+
+#social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 40px;
+  height: 40px;
 }
