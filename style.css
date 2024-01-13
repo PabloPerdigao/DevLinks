@@ -23,6 +23,7 @@ body * {
 #container {
   width: 360px;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 /* Configuração do alinhamento do conteúdo*/
@@ -69,10 +70,20 @@ ul li a {
   border-radius: 8px;
 
   border: 1px solid rgba(11, 214, 218, 0.50);
+
+
   background: rgba(36, 36, 36, 0.50);
   backdrop-filter: blur(4px);
 
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+/* pseudo-selector*/
+ul li a:hover {
+  border: 2px solid rgba(31, 202, 195, 0.50);
+  background: rgba(36, 36, 36, 0.25);
 }
