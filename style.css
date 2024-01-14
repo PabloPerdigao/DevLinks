@@ -24,6 +24,8 @@ body * {
   width: 360px;
   margin: 56px auto 0px;
   padding: 0 24px;
+
+
 }
 
 /* Configuração do alinhamento do conteúdo*/
@@ -51,6 +53,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0;
 }
 
 ul li { 
@@ -88,10 +92,36 @@ ul li a:hover {
   background: rgba(36, 36, 36, 0.25);
 }
 
+/* Configuração do social Links*/
 #social-links {
   display: flex;
-  flex-direction: row;
-  gap: 16px;
-  width: 40px;
-  height: 40px;
+  justify-content: center;
+  padding: 24px 0;
+  
 }
+
+/* Configuração dos icons of social Links*/
+#social-links img {
+  height: 40px;
+  gap: 16px;
+}
+
+/* Configuração do position icons of social Links*/
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  transition: background 0.2s;
+  border-radius: 50%;
+
+  padding: 8px;
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  
+}
+
+
+
