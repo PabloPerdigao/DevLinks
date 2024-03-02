@@ -12,9 +12,9 @@ function toggleMode() {
 
   // Lista de ícones e seus caminhos para light mode
   const icons = {
-    github: "./mobile/light-mode/GitHub.png",
-    instagram: "./mobile/light-mode/Instagram.png",
-    linkedin: "./mobile/light-mode/LinkedIn.png"
+    github: "./mobile/light-mode/github.png",
+    instagram: "./mobile/light-mode/instagram.png",
+    linkedin: "./mobile/light-mode/linkedin.png"
   };
 
   // Iterar sobre cada ícone e substituir a imagem conforme necessário

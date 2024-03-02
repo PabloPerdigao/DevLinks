@@ -7,7 +7,7 @@
 
 :root {
   --text-color: white;
-  --bg-url:url(./mobile/Gradient-Dark-mode.jpg);
+  --bg-url:url(./mobile/gradient-dark-mode.jpg);
   --stroke-color: rgba(11, 214, 218, 0.50);
   --surface-color:rgba(36, 36, 36, 0.50);
   --surface-color-hover:rgba(31, 202, 195, 0.50);
@@ -19,7 +19,7 @@
 /*light-mode*/
 .light {
   --text-color: #152A44;
-  --bg-url:url(./mobile/Gradient-light-\ mode.jpg);
+  --bg-url:url(./mobile/gradient-light-\ mode.jpg);
   --stroke-color:rgba(21, 42, 68, 1);
   --surface-color:rgba(255, 255, 255, 0.25);
   --surface-color-hover:rgba(29, 100, 104, 0.25);
