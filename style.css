@@ -7,16 +7,23 @@
 
 :root {
   --text-color: white;
+  --bg-url:url(./mobile/Gradient-Dark-mode.jpg);
+  --stroke-color: rgba(11, 214, 218, 0.50);
+  --surface-color:rgba(36, 36, 36, 0.50);
 }
 
+/* Mobile light-mode*/
 .light {
-  --text-color: rgba(21, 42, 68, 1);
+  --text-color: #152A44;
+  --bg-url:url(./mobile/Gradient-light-\ mode.jpg);
+  --stroke-color:rgba(21, 42, 68, 1);
+  --surface-color:rgba(255, 255, 255, 0.25);
 }
 
 /* Configuração do background da página */
 body {
   /* Shorthand */
-  background: url(./mobile/Gradient-Dark-mode.jpg) 
+  background: var(--bg-url) 
   no-repeat top center/cover;
 }
 
@@ -78,10 +85,10 @@ ul li a {
   padding: 16px 24px;
   border-radius: 8px;
 
-  border: 1px solid rgba(11, 214, 218, 0.50);
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
 
 
-  background: rgba(36, 36, 36, 0.50);
   backdrop-filter: blur(4px);
 
   text-decoration: none;
