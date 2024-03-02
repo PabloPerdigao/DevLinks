@@ -5,7 +5,7 @@ function toggleMode() {
 
   /* 
     OR 
-     
+
     if(html.classList.contains('light')) {
       html.classList.remove('light')
     } else {
