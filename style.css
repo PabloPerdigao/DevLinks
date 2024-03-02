@@ -10,14 +10,20 @@
   --bg-url:url(./mobile/Gradient-Dark-mode.jpg);
   --stroke-color: rgba(11, 214, 218, 0.50);
   --surface-color:rgba(36, 36, 36, 0.50);
+  --surface-color-hover:rgba(31, 202, 195, 0.50);
+  --highlight-color: rgba(255, 255, 255, 0.2); 
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
-/* Mobile light-mode*/
+/*light-mode*/
 .light {
   --text-color: #152A44;
   --bg-url:url(./mobile/Gradient-light-\ mode.jpg);
   --stroke-color:rgba(21, 42, 68, 1);
   --surface-color:rgba(255, 255, 255, 0.25);
+  --surface-color-hover:rgba(29, 100, 104, 0.25);
+  --highlight-color: rgba(29, 100, 104, 0.25);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 /* Configuração do background da página */
@@ -58,6 +64,46 @@ body * {
   margin-top: 8px;
 }
 
+#switch {
+  position: relative;
+  width: 64px;
+
+  margin: 4px auto;
+}
+
+/* switch */
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: rgba(36, 36, 36, 1) var(--switch-bg-url) 
+  no-repeat center;
+  border: 0;
+  border-radius: 50%;
+
+  /* posicionando o botão*/
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+
+}
+
+
+.light #switch button {
+  right: 0;
+  left: initial;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  -webkit--backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
 
 /* Configuração dos link-buttons */
 ul {
@@ -98,11 +144,10 @@ ul li a {
   transition: background 0.2s;
 }
 
-/* pseudo-selector*/
+/* pseudo-selector */
 ul li a:hover {
-  border: 2px solid rgba(31, 202, 195, 0.50);
-  background: rgba(36, 36, 36, 0.25) 
-         /*or rgba(31, 202, 195, 0.50)*/;
+  background: var(--surface-color-hover);
+  border: 2px solid var(--stroke-color);
 }
 
 /* Configuração do social Links*/
@@ -110,7 +155,6 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   padding: 24px 0;
-  
 }
 
 /* Configuração dos icons of social Links*/
@@ -132,7 +176,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--highlight-color);
 }
 
 /* Configuração do rodapé */
