@@ -86,7 +86,8 @@ ul li a {
 /* pseudo-selector*/
 ul li a:hover {
   border: 2px solid rgba(31, 202, 195, 0.50);
-  background: rgba(36, 36, 36, 0.25);
+  background: rgba(36, 36, 36, 0.25) 
+         /*or rgba(31, 202, 195, 0.50)*/;
 }
 
 /* Configuração do social Links*/
