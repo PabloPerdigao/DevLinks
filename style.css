@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: white;
+}
+
+.light {
+  --text-color: rgba(21, 42, 68, 1);
+}
+
 /* Configuração do background da página */
 body {
   /* Shorthand */
@@ -16,7 +24,7 @@ body {
 body * {
   font-family: 'Mulish', sans-serif;
   font-family: 'MuseoModerno', sans-serif;
-  color: white;
+  color: var(--text-color);
 }
 
 /* Configuração da caixa 1*/
