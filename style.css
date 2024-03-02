@@ -106,7 +106,7 @@ body * {
   height: 24px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
-  -webkit--backdrop-filter: blur(4px);
+  --webkit--backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
@@ -189,7 +189,11 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+footer a span {
   text-decoration: underline;
+
 }
 
 
