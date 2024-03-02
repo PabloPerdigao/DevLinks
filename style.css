@@ -13,7 +13,7 @@
   --surface-color-hover:rgba(31, 202, 195, 0.50);
   --highlight-color: rgba(255, 255, 255, 0.2); 
   --switch-bg-url: url(./assets/moon-stars.svg);
-  --surface-switch-color:rgba(36, 36, 36, 1);
+  --background-switch-color:rgba(36, 36, 36, 1);
 }
 
 /*light-mode*/
@@ -25,7 +25,7 @@
   --surface-color-hover:rgba(29, 100, 104, 0.25);
   --highlight-color: rgba(29, 100, 104, 0.25);
   --switch-bg-url: url(./assets/sun.svg);
-  --surface-switch-color:rgba(29, 100, 104, 1);
+  --background-switch-color:rgba(29, 100, 104, 1);
 }
 
 /* Configuração do background da página */
@@ -79,7 +79,7 @@ body * {
 #switch button {
   width: 32px;
   height: 32px;
-  background: var(--surface-switch-color) var(--switch-bg-url) 
+  background: var(--background-switch-color) var(--switch-bg-url) 
   no-repeat center;
   border: 0;
   border-radius: 50%;
@@ -189,6 +189,7 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+  text-decoration: underline;
 }
 
 
