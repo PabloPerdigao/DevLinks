@@ -8,12 +8,12 @@
 /* Dark-mode */
 :root {
   --text-color: white;
-  --bg-url:url(/mobile/gradient-dark-mode.jpg);
+  --bg-url:url(./mobile/gradient-dark-mode.jpg);
   --stroke-color: rgba(11, 214, 218, 0.50);
   --surface-color:rgba(36, 36, 36, 0.50);
   --surface-color-hover:rgba(31, 202, 195, 0.50);
   --highlight-color: rgba(255, 255, 255, 0.2); 
-  --switch-bg-url: url(/assets/moon-stars.svg);
+  --switch-bg-url: url(./assets/moon-stars.svg);
   --background-switch-color:rgba(36, 36, 36, 1);
   --track-color:rgba(255, 255, 255, 0.1);
 }
