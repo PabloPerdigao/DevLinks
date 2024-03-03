@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Dark-mode */
 :root {
   --text-color: white;
   --bg-url:url(./mobile/gradient-dark-mode.jpg);
@@ -14,9 +15,10 @@
   --highlight-color: rgba(255, 255, 255, 0.2); 
   --switch-bg-url: url(./assets/moon-stars.svg);
   --background-switch-color:rgba(36, 36, 36, 1);
+  --track-color:rgba(255, 255, 255, 0.1);
 }
 
-/*light-mode*/
+/* Light-mode */
 .light {
   --text-color: #152A44;
   --bg-url:url(./mobile/gradient-light-\ mode.jpg);
@@ -26,6 +28,7 @@
   --highlight-color: rgba(29, 100, 104, 0.25);
   --switch-bg-url: url(./assets/sun.svg);
   --background-switch-color:rgba(29, 100, 104, 1);
+  --track-color:rgba(255, 255, 255, 0.25);
 }
 
 /* Configuração do background da página */
@@ -94,19 +97,20 @@ body * {
 
 }
 
-
+/*light-mode para o botão de alternância de modos*/
 .light #switch button {
   right: 0;
   left: initial;
 }
 
+/* Configuração do switch span (a barra ao redor do botão) */
 #switch span {
   display: block;
   width: 64px;
   height: 24px;
-  background: var(--surface-color);
+  background: var(--track-color);
   border: 1px solid var(--stroke-color);
-  --webkit--backdrop-filter: blur(4px);
+  -webkit--backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
