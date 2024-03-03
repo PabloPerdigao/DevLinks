@@ -36,3 +36,4 @@ function toggleMode() {
 
 // Chama a função toggleMode() ao carregar a página
 toggleMode();
+
