@@ -8,7 +8,7 @@
 /* Dark-mode */
 :root {
   --text-color: white;
-  --bg-url:url(./assets/dark-mode/bg-dark-mode-gradient.jpg);
+  --bg-url:url(./assets/dark-mode/gradient-dark-mode.jpg);
   --stroke-color: rgba(11, 214, 218, 0.50);
   --surface-color:rgba(36, 36, 36, 0.50);
   --surface-color-hover:rgba(31, 202, 195, 0.50);
