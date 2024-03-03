@@ -97,12 +97,17 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
+  animation: slide-back 0.4s ;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 /*light-mode para o botão de alternância de modos*/
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
+
 }
 
 /* Configuração do switch span (a barra ao redor do botão) */
@@ -211,5 +216,25 @@ footer a span {
 
   .light {
     --bg-url: url(./desktop/bg-light-mode-gradient.png)
+  }
+}
+
+/* animation */
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
