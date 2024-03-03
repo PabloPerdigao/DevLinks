@@ -8,12 +8,12 @@
 /* Dark-mode */
 :root {
   --text-color: white;
-  --bg-url:url(./mobile/gradient-dark-mode.jpg);
+  --bg-url:url(mobile/gradient-dark-mode.jpg);
   --stroke-color: rgba(11, 214, 218, 0.50);
   --surface-color:rgba(36, 36, 36, 0.50);
   --surface-color-hover:rgba(31, 202, 195, 0.50);
   --highlight-color: rgba(255, 255, 255, 0.2); 
-  --switch-bg-url: url(./assets/moon-stars.svg);
+  --switch-bg-url: url(assets/moon-stars.svg);
   --background-switch-color:rgba(36, 36, 36, 1);
   --track-color:rgba(255, 255, 255, 0.1);
 }
@@ -21,12 +21,12 @@
 /* Light-mode */
 .light {
   --text-color: #152A44;
-  --bg-url:url(./mobile/gradient-light-\ mode.jpg);
+  --bg-url:url(mobile/gradient-light-\ mode.jpg);
   --stroke-color:rgba(21, 42, 68, 1);
   --surface-color:rgba(255, 255, 255, 0.25);
   --surface-color-hover:rgba(29, 100, 104, 0.25);
   --highlight-color: rgba(29, 100, 104, 0.25);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(assets/sun.svg);
   --background-switch-color:rgba(29, 100, 104, 1);
   --track-color:rgba(255, 255, 255, 0.25);
 }
@@ -211,11 +211,11 @@ footer a span {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./desktop/bg-dark-mode-gradient.jpg)
+    --bg-url: url(desktop/bg-dark-mode-gradient.jpg)
   }
 
   .light {
-    --bg-url: url(./desktop/bg-light-mode-gradient.png)
+    --bg-url: url(desktop/bg-light-mode-gradient.png)
   }
 }
 
