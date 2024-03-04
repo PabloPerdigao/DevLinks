@@ -1,4 +1,3 @@
-
 <p align="center">
   <span style="font-size: 19px;">⚠️</span> <strong>ATENÇÃO</strong> <span style="font-size: 19px;">⚠️</span>
   <br/>
@@ -18,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto DevLinks" src="./assests/preview.png" width="100%">
+  <img alt="Projeto DevLinks" src="./assets/preview.png/" width="100%">
 </p>
 
 ## 🧠 Linguagens,Tecnologias & Ferramentas
@@ -46,5 +45,3 @@ Você pode visualizar o layout do projeto através [DESSE LINK]([https://www.fig
   
 😉 Feito com ♥ by Pablo Perdigão, aluno Explorer da Rocketseat! <br/>
 📲 [Participe da comunidade Rocketseat!](https://discord.gg/rocketseat?target=_blank)
-
-
