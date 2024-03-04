@@ -21,7 +21,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto DevLinks" src="/assets/preview.png" width="100%">
+  <img alt="Projeto DevLinks" src="./assests/preview.png/" width="100%">
 </p>
 
 ## 🧠 Linguagens,Tecnologias & Ferramentas
