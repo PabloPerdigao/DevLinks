@@ -21,7 +21,11 @@
 <br>
 
 <p align="center">
+<<<<<<< HEAD
   <img alt="Projeto DevLinks" src="./assets/preview.png/" width="100%">
+=======
+  <img alt="Projeto DevLinks" src="./assests/preview.png/" width="100%">
+>>>>>>> 4dffe9332cef6d33a2fc78df53287d49ae6564bb
 </p>
 
 ## 🧠 Linguagens,Tecnologias & Ferramentas
