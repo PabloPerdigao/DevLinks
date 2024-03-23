@@ -1,37 +1,51 @@
-// Obtém o modo atual do localStorage ou define como 'dark' se não existir
-const currentMode = localStorage.getItem('mode') || 'dark';
+
+// Obtém o modo atual do localStorage ou define como light se não existir
+const currentMode = localStorage.getItem('mode') || 'light';
 const html = document.documentElement;
 
 // Aplica o modo atual ao carregar a página
 html.classList.add(currentMode);
 
-// Atualiza os ícones de acordo com o modo
-updateIcons();
+// Lista de ícones e seus caminhos para light mode
+const icons = {
+  github: "./assets/light-mode/github.png",
+  instagram: "./assets/light-mode/instagram.png",
+  linkedin: "./assets/light-mode/linkedin.png"
+};
 
-// Função para alternar entre os modos
+// BG para light mode
+const bgLightMode = "./assets/light-mode/bg-light-mode-gradient.png";
+
+// BG para dark mode
+const bgDarkMode = "./assets/dark-mode/bg-dark-mode-gradient.jpg";
+
+// Função para trocar o modo light/dark
 function toggleMode() {
+  // Inverte a classe light no elemento HTML
   html.classList.toggle("light");
-  const newMode = html.classList.contains("light") ? "light" : "dark";
-  
-  // Salva o modo atual no localStorage
-  localStorage.setItem('mode', newMode);
 
-  // Atualiza os ícones após a alteração do modo
-  updateIcons();
-}
+  // Verifica se o modo atual é light
+  const isLightMode = html.classList.contains("light");
 
-// Função para atualizar os ícones com base no modo
-function updateIcons() {
-  const icons = {
-    github: "./mobile/GitHub.png",
-    instagram: "./mobile/Instagram.png",
-    linkedin: "./mobile/LinkedIn.png"
-  };
+  // Define o caminho do background com base no modo atual
+  const bgPath = isLightMode ? bgLightMode : bgDarkMode;
+  // Aplica o background
+  document.body.style.backgroundImage = `url(${bgPath})`;
 
   // Iterar sobre cada ícone e substituir a imagem conforme necessário
   for (const [iconId, iconPath] of Object.entries(icons)) {
     const img = document.querySelector(`#social-links a[href*="${iconId}"] img`);
-    const modePath = `./mobile/${html.classList.contains("light") ? 'light-mode/' : ''}${iconId}.png`;
-    img.setAttribute("src", modePath);
+
+    // Define o caminho da imagem com base no modo atual
+    const iconSrc = isLightMode ? iconPath : `./assets/dark-mode/${iconId}.png`;
+    // Aplica o caminho da imagem
+    img.setAttribute("src", iconSrc);
   }
+
+  // Atualiza o localStorage com o modo atual
+  const updatedMode = isLightMode ? 'light' : 'dark';
+  localStorage.setItem('mode', updatedMode);
 }
+
+// Chama a função toggleMode() ao carregar a página
+toggleMode();
