@@ -1,17 +1,17 @@
-<p align="center">
+<p align="center" style="font-family: 'MuseoModerno', sans-serif;">
   <span style="font-size: 19px;">⚠️</span> <strong>ATENÇÃO</strong> <span style="font-size: 19px;">⚠️</span>
   <br/>
-  Este é um projeto real desenvolvido com o propósito de ser usado como cartão de visitas em meu perfil.
+  Este é um projeto real desenvolvido com o propósito de ser usado como cartão de visitas em meu perfil. 
   <br/>
-  <a href="https://rocketforms.typeform.com/to/fPcSmBp9#referral_id=e8eb53b2-1777-4867-9b33-d468fc9d1422o" style="color: #83BDF2;">Assista a projetos semelhantes em formato de vídeo clicando aqui!</a>
+  <a href="https://rocketforms.typeform.com/to/fPcSmBp9#referral_id=e8eb53b2-1777-4867-9b33-d468fc9d1422o" style="color: #83BDF2; text-decoration: none;">Assista a projetos semelhantes em formato de vídeo clicando aqui!</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <a href="#-projeto" style="color: #FFF; border: 2px solid #1D6468; padding: 5px 10px; border-radius: 12px;">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-linguagens-tecnologias--ferramentas" style="color: #FFF; border: 2px solid #1D6468; padding: 5px 10px; border-radius: 12px;">Linguagens, Tecnologias & Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout" style="color: #FFF; border: 2px solid #1D6468; padding: 5px 10px; border-radius: 12px;">Layout</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto" style="color: #FFF; border: 2px solid #1D6468; padding: 5px 10px; border-radius: 12px; text-decoration: none;">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-linguagens-tecnologias--ferramentas" style="color: #FFF; border: 2px solid #1D6468; padding: 5px 10px; border-radius: 12px; text-decoration: none;">Linguagens, Tecnologias & Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout" style="color: #FFF; border: 2px solid #1D6468; padding: 5px 10px; border-radius: 12px; text-decoration: none;">Layout</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
