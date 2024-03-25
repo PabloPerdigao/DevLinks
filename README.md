@@ -55,7 +55,7 @@ Você pode visualizar o layout do projeto através
 
 
 ## 
-
-<strong>😎 Feito com estilo por Pablo Perdigão, futuro Dev Full-Stack!</strong> 
+🎨👨🏼‍💻😎
+<strong>Desenvolvido com estilo por Pablo Perdigão, desde o UI Design ao Code, do zero!</strong> 
 <br>
 [🤝🏼🌐 Siga-me & ajude na criação de uma rede cada vez mais interconectada!](https://www.instagram.com/perdigao.techjourney)
