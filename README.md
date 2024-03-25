@@ -29,6 +29,7 @@ Este projeto foi desenvolvido com as seguintes linguagens, tecnologias e ferrame
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![VsCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 <br/>
@@ -36,9 +37,11 @@ Este projeto foi desenvolvido com as seguintes linguagens, tecnologias e ferrame
 
 ## 💻 Projeto
 
-  O Projeto DevLinks se trata de um agregador de links, que será usado como cartão de visitas no meu perfil, facilitando o acesso às redes sociais, projetos e meu portfólio.
+  O Projeto DevLinks se trata de um agregador de links, que será usado como cartão de visitas no meu perfil cuja função é de encaminhar, da melhor maneira possível as pessoas/empresas que desejam de maneira facilitada  acessar meus projetos, portifólio e  minhas às redes sociais.
 
-  Este é o meu primeiro projeto, espero ter demonstrado um pouco de minhas habilidades e capacidades, tanto na parte do design da interface do usuário quanto no desenvolvimento.
+  Este é o meu primeiro projeto desenvolvido completamente do zero,desde o ux/ui design no Figma ao código no Vscod! 
+  
+  Espero ter demonstrado um pouco de minhas habilidades e capacidades, tanto na parte do design da interface do usuário quanto no desenvolvimento.
 
 [➡️😉Acesse o projeto finalizado online](https://pabloperdigao.github.io/DevLinks/)
 
